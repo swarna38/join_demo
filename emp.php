@@ -32,6 +32,7 @@
             <td><?php echo $row['hire_date']?></td>
             <td>
                 <a href="emp_edit.php? emp_id= <?php echo $row['Id']?>">Edit</a>
+                <a onclick="return confirm('confirm to delete')" href="emp_delete.php? emp_id= <?php echo $row['Id']?>">delete</a>
             </td>
         </tr>
 
