@@ -38,6 +38,6 @@ FOREIGN KEY (department_id ) REFERENCES departments(id)
 )";
 
 $connection->query($sql);
-echo "employees table created";
+echo "employees table created"
 
 ?>

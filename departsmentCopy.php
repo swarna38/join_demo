@@ -24,17 +24,17 @@ $rowinfo = $connection->query($sql);
 
 
 //sow departments table all row
-$dep = 1;
-while($row = $rowinfo->fetch_assoc()){
-    echo '<h2>Department :' .$dep .'</h2>';
-    echo "<ul>";
-    echo "<li>";
-    echo 'Department name :' . $row['dept_name'];
-    echo "</li>";
-    echo "<li>";
-    echo 'Location :' . $row['location'];
-    echo "</li>";
-    echo "</ul>";
+// $dep = 1;
+// while($row = $rowinfo->fetch_assoc()){
+//     echo '<h2>Department :' .$dep .'</h2>';
+//     echo "<ul>";
+//     echo "<li>";
+//     echo 'Department name :' . $row['dept_name'];
+//     echo "</li>";
+//     echo "<li>";
+//     echo 'Location :' . $row['location'];
+//     echo "</li>";
+//     echo "</ul>";
 
-    $dep++;
-}
+//     $dep++;
+// }
